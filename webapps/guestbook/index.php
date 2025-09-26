@@ -1,15 +1,24 @@
 <html>
 <body>
 
-<p>Make sure to start your browser with:</p>
+<p>If you run an old browser with XSS-Auditor: Make sure to start your browser with:</p>
 <pre>chromium-browser -disable-xss-auditor</pre>
 
-<form method=post>
-<input type=text name=name>
-<input type=textfield name=message>
-<input type=submit>
-</form>
-
+<table> 
+	<tr>
+		<form method=post>
+		<td>Name:</td>
+		<td><input type=text name=name></td>
+	</tr>
+	<tr>
+		<td>Message:</td>
+		<td><input type=textfield name=message></td>
+	</tr>
+	<tr><td>
+		<input type=submit>
+	</td></tr>
+	</form>
+</table>
 
 <?php
 
